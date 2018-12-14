@@ -106,7 +106,7 @@ class App extends React.Component<PropsType, StateType> {
                 setPercentage(90);
                 this.setState({ configLoaded: true });
             })
-            .catch(e => { console.error(e); });
+            .catch((err) => { console.error(err); });
     }
 
     componentDidUpdate() {
