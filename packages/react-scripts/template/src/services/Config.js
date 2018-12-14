@@ -26,7 +26,9 @@ class Config {
     site: ?number;
 
     initPromise: *;
+
     resolve: *;
+
     reject: *;
 
     constructor() {
